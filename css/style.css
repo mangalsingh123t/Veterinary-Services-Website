@@ -1,0 +1,146 @@
+      #nav_bar {
+        background-color: #daac00;
+      }
+
+      .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+        color: white;
+        font-size: 1.5rem;
+        padding-left: 30px;
+        font-weight: 400;
+      }
+
+      #searchbox {
+        background-color: #fcc302;
+        color: white !important;
+        box-shadow: 7px -3px 20px 1px rgba(128, 128, 128, 0.856);
+        padding-bottom: 5px;
+        ;
+      }
+
+      #search_button {
+        background-color: rgb(0, 114, 255);
+        position: relative;
+        margin-left: -8px;
+      }
+
+      #searchbox::placeholder {
+        color: white;
+        opacity: 1;
+      }
+
+      #container-text {
+        padding-top: 110px;
+        padding-bottom: 166.5px;
+      }
+
+      @media only screen and (max-width : 999px) {
+        #form-con {
+          width: 70%;
+          margin-left: 25px;
+        }
+      }
+
+      #service-img {
+        padding-top: 20%;
+        padding-left: 10%;
+      }
+
+      @media only screen and (max-width : 999px) {
+        #service-img {
+          padding-top: 40%;
+        }
+      }
+
+      @media only screen and (max-width : 767px) {
+        #service-img {
+          padding: 0;
+          margin: 0 0 50px 20px;
+        }
+      }
+
+      .icon-card {
+        font-size: 50px;
+        /* color: rgb(255, 255, 255,0.5); */
+      }
+
+      #card-bgimage {
+        background-image: url("../images/bg-image.jpg");
+        background-size: cover;
+        /* Ensures the image covers the entire container */
+        background-repeat: no-repeat;
+        /* Prevents the image from repeating */
+        background-position: center;
+        /* Centers the image */
+        height: 400px;
+        opacity: 0.5;
+
+      }
+
+      @media only screen and (max-width : 767px) {
+        .icon-card {
+          font-size: 30px;
+        }
+
+      }
+
+      .posts-card {
+        box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0.856);
+      }
+
+      @media only screen and (max-width : 999px) {
+        .posts-card {
+          margin-bottom: 15px;
+        }
+      }
+
+      .footer-item {
+        height: 50px;
+        width: 100%;
+      }
+
+      .tel-icon {
+        margin-left: -9px;
+        margin-top: -8px;
+      }
+
+
+      .app-icon{
+        font-size: 25px;
+      }
+
+      .image-con{
+        margin-right: -7px;
+      }
+
+      /* @media only screen and (max-width : 767px) {
+        .posts {
+          padding-left: 220px;
+        }
+
+        .posts-card {
+          margin-bottom: 30px;
+        }
+      }
+
+      @media only screen and (max-width : 667px) {
+        .posts {
+          padding-left: 150px;
+        }
+
+        .posts-card {
+          margin-bottom: 30px;
+        }
+      }
+
+      @media only screen and (max-width : 500px) {
+        .posts-card {
+          margin-bottom: 30px;
+        }
+
+        .posts {
+          padding-left: 20px;
+        }
+
+      }  */
